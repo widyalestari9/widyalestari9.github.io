@@ -64,40 +64,96 @@
 
 .service {
   margin-top: 80px;
+  margin-bottom: 128px;
 }
-.service .container .row .txt {
+.service .container .head-service {
+  text-align: center !important;
+}
+.service .container .head-service .text {
   color: #40B286;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
 }
-.service .container .row h4 {
+.service .container .head-service h4 {
   font-weight: bold;
   font-size: 30px;
 }
-.service .container .row .img-produk {
+.service .container .img-produk {
   width: 300px;
+  border-radius: 15px;
 }
-.service .container .row p {
+.service .container .nama-training {
   font-size: 20px;
   font-weight: 600;
   margin-top: 22px;
   text-transform: uppercase;
+  text-align: left;
+  padding-left: 110px;
 }
-.service .container .row .harga {
+.service .container .harga {
   color: #40B286;
   font-size: 16px;
   font-weight: 600;
   margin-top: 16px;
 }
-.service .container .row .harga span {
+.service .container .harga span {
   text-decoration: line-through;
   font-weight: 400;
 }
-.service .container .row .btn-success {
+.service .container .btn-success {
   border-radius: 50px;
   background-color: #40B286;
   width: 300px;
   border-color: #40B286;
   margin-top: 40px;
+}
+
+.support {
+  margin-bottom: 128px;
+}
+.support .container {
+  text-align: center;
+}
+
+.blog {
+  margin-bottom: 128px;
+}
+.blog .container .row .kunjungi .blog-kami {
+  color: #31B380;
+  font-size: 16px;
+  font-weight: 600;
+}
+.blog .container .row .kunjungi h3 {
+  color: #211B3D;
+  font-size: 30px;
+  font-weight: 600;
+}
+.blog .container .row .tombol {
+  text-align: right;
+}
+.blog .container .konten {
+  margin-top: 80px;
+}
+.blog .container .konten .gambar {
+  text-align: center;
+}
+.blog .container .konten .gambar .img-fluid {
+  border-radius: 15px;
+}
+.blog .container .konten .judul-blog {
+  padding-left: 25px;
+}
+.blog .container .konten .judul-blog .tanggal {
+  font-size: 20px;
+  color: #40B286;
+  font-weight: 400;
+  margin-top: 33px;
+}
+.blog .container .konten .judul-blog .nama-blog {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 16px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */

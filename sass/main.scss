@@ -87,31 +87,37 @@
 
 .service{
     margin-top: 80px;
+    margin-bottom: 128px;
   
     .container{
-      
-      .row{
+
+        .head-service{
+            text-align: center !important;
+            .text{
+                color: #40B286;
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+            h4{
+            font-weight: bold;
+            font-size: 30px;
+            }
+        }
        
   
-        .txt{
-          color: #40B286;
-          font-size: 16px;
-          text-transform: uppercase;
-          font-weight: 600;
-        }
-        h4{
-          font-weight: bold;
-          font-size: 30px;
-        }
           .img-produk{
             width: 300px;
+            border-radius: 15px;
             
         }
-        p{
+        .nama-training{
           font-size: 20px;
           font-weight: 600;
           margin-top: 22px;
           text-transform: uppercase;
+          text-align: left;
+          padding-left: 110px;
         }
   
         .harga {
@@ -122,11 +128,18 @@
          
           span{
             // textnya biar bisa dicoret
-         text-decoration: line-through;
-           font-weight: 400;
+            text-decoration: line-through;
+            font-weight: 400;
           }
   
         }
+
+        // @media (max-width: 931px){
+        //     .harga{
+        //         padding-left: 100px;
+        //     }
+        // }
+
         .btn-success{
           border-radius: 50px;
           background-color: #40B286;
@@ -136,8 +149,69 @@
          
         }
   
-        
-  
-      }
     }
   }
+
+.support{
+    margin-bottom: 128px;
+    .container{
+        text-align: center;
+    }
+}
+
+.blog{
+    margin-bottom: 128px;
+
+    .container{
+
+        .row{
+
+            .kunjungi{
+                .blog-kami{
+                    color: #31B380;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                h3{
+                    color: #211B3D;
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+            }
+
+            .tombol{
+                text-align: right;
+            }
+        }
+
+        .konten{
+            margin-top: 80px;
+
+            .gambar{
+                text-align: center;
+                .img-fluid{
+                    border-radius: 15px;
+                }
+            }
+
+            .judul-blog{
+
+                padding-left: 25px;
+
+                .tanggal{
+                    font-size: 20px;
+                    color: #40B286;
+                    font-weight: 400;
+                    margin-top: 33px;
+                }
+                .nama-blog{
+                    font-size: 22px;
+                    color: #000;
+                    font-weight: bold;
+                    margin-top: 16px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
