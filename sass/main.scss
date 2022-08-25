@@ -1,0 +1,143 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{   
+    height: 70px;
+    
+    .container{
+
+        .collapse{
+
+            .nav-item{
+                margin-right: 20px;
+                font-size: 16px;
+
+                .active{
+                    color: #40B286;
+                    font-size: 18px;
+                }
+
+                :hover{
+                    color: #40B286;
+                }
+            }
+            
+            .btn-auth{
+                
+                .btn-success{
+                    background-color: #40B286;
+                    border-radius: 50px;
+                    width: 130px;
+                    border-color: #40B286;
+
+                }
+                .btn-sign-in{
+                    background-color:  #d5f0d0;
+                    border-color: #cde5d0;
+                    color: #40B286;
+                    border-radius: 50px;
+                    width: 130px;
+                    font-size: medium;
+                    margin-right: 12px;
+                }
+            }
+        }
+        @media (max-width: 931px){
+            .collapse{
+                margin-top: 25px;
+            }
+        
+        }
+    }
+}
+
+.hero-section{
+    margin-top: 80px; 
+
+    .container{
+
+        .row{
+
+            .gld{
+                color: #40B286;
+                font-size: 16px;
+                font-weight: 600px;
+            }
+            h3{
+                font-weight: bold;
+                font-size: 44px;
+                color: black;
+            }
+
+            .desc{
+                color: black;
+                font-size: 16px; 
+                margin-top: 22px;
+                margin-bottom: 22px;
+
+            }
+            .btn-success{
+                border-radius: 50px;
+                background-color: #40B286;
+                width: 150px;
+            }
+        }
+    }
+}
+
+.service{
+    margin-top: 80px;
+  
+    .container{
+      
+      .row{
+       
+  
+        .txt{
+          color: #40B286;
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 600;
+        }
+        h4{
+          font-weight: bold;
+          font-size: 30px;
+        }
+          .img-produk{
+            width: 300px;
+            
+        }
+        p{
+          font-size: 20px;
+          font-weight: 600;
+          margin-top: 22px;
+          text-transform: uppercase;
+        }
+  
+        .harga {
+          color: #40B286;
+          font-size: 16px;
+          font-weight: 600;
+          margin-top: 16px;
+         
+          span{
+            // textnya biar bisa dicoret
+         text-decoration: line-through;
+           font-weight: 400;
+          }
+  
+        }
+        .btn-success{
+          border-radius: 50px;
+          background-color: #40B286;
+          width: 300px; 
+          border-color: #40B286;
+          margin-top: 40px;
+         
+        }
+  
+        
+  
+      }
+    }
+  }

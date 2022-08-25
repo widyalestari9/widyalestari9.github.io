@@ -1,0 +1,103 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  height: 70px;
+}
+.navbar .container .collapse .nav-item {
+  margin-right: 20px;
+  font-size: 16px;
+}
+.navbar .container .collapse .nav-item .active {
+  color: #40B286;
+  font-size: 18px;
+}
+.navbar .container .collapse .nav-item :hover {
+  color: #40B286;
+}
+.navbar .container .collapse .btn-auth .btn-success {
+  background-color: #40B286;
+  border-radius: 50px;
+  width: 130px;
+  border-color: #40B286;
+}
+.navbar .container .collapse .btn-auth .btn-sign-in {
+  background-color: #d5f0d0;
+  border-color: #cde5d0;
+  color: #40B286;
+  border-radius: 50px;
+  width: 130px;
+  font-size: medium;
+  margin-right: 12px;
+}
+@media (max-width: 931px) {
+  .navbar .container .collapse {
+    margin-top: 25px;
+  }
+}
+
+.hero-section {
+  margin-top: 80px;
+}
+.hero-section .container .row .gld {
+  color: #40B286;
+  font-size: 16px;
+  font-weight: 600px;
+}
+.hero-section .container .row h3 {
+  font-weight: bold;
+  font-size: 44px;
+  color: black;
+}
+.hero-section .container .row .desc {
+  color: black;
+  font-size: 16px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.hero-section .container .row .btn-success {
+  border-radius: 50px;
+  background-color: #40B286;
+  width: 150px;
+}
+
+.service {
+  margin-top: 80px;
+}
+.service .container .row .txt {
+  color: #40B286;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.service .container .row h4 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.service .container .row .img-produk {
+  width: 300px;
+}
+.service .container .row p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 22px;
+  text-transform: uppercase;
+}
+.service .container .row .harga {
+  color: #40B286;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.service .container .row .harga span {
+  text-decoration: line-through;
+  font-weight: 400;
+}
+.service .container .row .btn-success {
+  border-radius: 50px;
+  background-color: #40B286;
+  width: 300px;
+  border-color: #40B286;
+  margin-top: 40px;
+}/*# sourceMappingURL=main.css.map */
